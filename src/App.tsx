@@ -85,7 +85,7 @@ function App() {
         </div>
         
         <div className="flex flex-col items-center gap-4 mt-16">
-          <div className="relative p-[3px] bg-gradient-to-r from-[#B31942] via-[#002868] to-[#B31942] rounded-lg animate-gradient-x w-[800px]">
+          <div className="relative p-[3px] bg-gradient-to-r from-[#B31942] via-[#002868] to-[#B31942] rounded-lg animate-gradient-x w-[600px]">
             <div className="bg-white rounded-lg p-4">
               <div className="flex justify-between px-8 mb-4" style={{ fontFamily: 'Menlo' }}>
                 <div className="text-lg font-bold bg-gradient-to-r from-[#B31942] via-[#002868] to-[#B31942] text-transparent bg-clip-text animate-gradient-x">
