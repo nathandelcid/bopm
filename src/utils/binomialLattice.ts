@@ -64,8 +64,8 @@ export const generateLatticeData = (S: number, T: number, sigma: number, n: numb
   const edges: [string, string][] = [];
   const positions: Record<string, Position> = {};
   
-  const horizontalSpacing = 100;
-  const verticalSpacing = 70;
+  const horizontalSpacing = 80; // Reduced from 100
+  const verticalSpacing = 60; // Reduced from 70
   
   for (let step = 0; step <= n; step++) {
     for (let j = 0; j < prices[step].length; j++) {
