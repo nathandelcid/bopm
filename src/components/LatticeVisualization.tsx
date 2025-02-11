@@ -8,10 +8,10 @@ interface Props {
 }
 
 export const LatticeVisualization: React.FC<Props> = ({ nodes, edges, positions }) => {
-  const svgWidth = 800;
-  const svgHeight = 500;
-  const nodeWidth = 70;
-  const nodeHeight = 35;
+  const svgWidth = 600; // Reduced from 800
+  const svgHeight = 400; // Reduced from 500
+  const nodeWidth = 60; // Reduced from 70
+  const nodeHeight = 30; // Reduced from 35
   
   // Calculate the bounds for centering
   const minX = Math.min(...Object.values(positions).map(p => p.x));
@@ -62,7 +62,7 @@ export const LatticeVisualization: React.FC<Props> = ({ nodes, edges, positions 
                     textAnchor="middle"
                     dominantBaseline="middle"
                     style={{ fontFamily: 'Menlo', fontWeight: 'bold' }}
-                    className="text-sm fill-slate-700"
+                    className="text-xs fill-slate-700" // Reduced from text-sm
                   >
                     ${node.price.toFixed(2)}
                   </text>
